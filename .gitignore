@@ -1,0 +1,51 @@
+# Maven target directory
+/target/
+
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# IDE specific files
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# VS Code
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.swp
+*~
+
+# Generated reports
+/coverage/
+/jacoco.exec
+/site/
+
+# Backup files
+*.bak
+*.tmp
+
+# Test reports
+/surefire-reports/
+/failsafe-reports/
