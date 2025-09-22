@@ -42,10 +42,8 @@ Drugs:
     src/
      ├── main/java/com/example/hospital/
      │    ├── HospitalSimulator.java   # Entry point
-     │    ├── app/                     # CLI orchestration
-     │    ├── io/                      # Input parsing
      │    ├── model/                   # Enums: HealthState, Drug
-     │    ├── service/                 # Business rules & simulation
+     │    ├── service/                 # Business rules, simulation & helper services
      │    ├── util/                    # Output formatter
      │    └── validation/              # Validators (chain of responsibility)
      └── test/java/com/example/hospital/
@@ -58,7 +56,7 @@ Drugs:
 
 ### Requirements
 
-- Java 17+
+- Java 21+
 - Maven 3.8+
 
 ### Build JAR
